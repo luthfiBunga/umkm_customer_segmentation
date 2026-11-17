@@ -1,0 +1,16 @@
+{
+    "model_name": "UMKM Customer Segmentation",
+    "algorithm": "KMeans",
+    "n_clusters": 4,
+    "features": [
+        "umur",
+        "jumlah_transaksi_6bln",
+        "total_belanja_rp",
+        "hari_sejak_transaksi_terakhir",
+        "persen_pakai_promo",
+        "rating_rata"
+    ],
+    "silhouette_score": 0.4185,
+    "random_state": 42,
+    "sklearn_version": "1.9.1"
+}
